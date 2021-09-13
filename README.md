@@ -56,11 +56,6 @@ Returns an array with `{number}` quotes e.g. `GET /v1/quotes/5`.
 	]
 
 
-## Docker
-
-...
-
-
 ## Contributing
 
 If you want to add some quotes, just add them in `quotes.js` file and do a pull request !
