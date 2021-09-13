@@ -1,10 +1,10 @@
-![](breaking-bad-quotes_header.png)
+![](LuciferQuotesAPI-Banner.png)
 
 # Lucifer quotes API
 
 A simple API to retrieve some quotes of Lucifer, sawty!
 
-:globe_with_meridians: Website and demo: https://breakingbadquotes.xyz/
+:globe_with_meridians: Website and demo: **Under development**
 
 ## Production host
 
