@@ -58,7 +58,7 @@ Returns an array with `{number}` quotes e.g. `GET /v1/quotes/5`.
 
 ## Docker
 
-You can find the Dockerfile [here](https://github.com/shevabam/dockerfiles/tree/master/breaking-bad-quotes) and on [Docker Hub](https://hub.docker.com/r/shevabam/breaking-bad-quotes/).
+...
 
 
 ## Contributing
