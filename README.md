@@ -1,4 +1,9 @@
-![](LuciferQuotesAPI-Banner.png)
+![](LuciferQuotesAPI-Banner.png)</br>
+![](https://img.shields.io/github/license/shadowoff09/lucifer-quotes)
+![](https://img.shields.io/github/deployments/shadowoff09/lucifer-quotes/lucifer-quotes)
+![](https://img.shields.io/github/last-commit/shadowoff09/lucifer-quotes)
+![](https://img.shields.io/github/repo-size/shadowoff09/lucifer-quotes)
+![](https://img.shields.io/badge/quotes-67-blue)
 
 # Lucifer quotes API
 
