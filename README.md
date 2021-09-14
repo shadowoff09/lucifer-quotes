@@ -27,10 +27,10 @@ Get a random quote in this format:
 > [https://lucifer-quotes.herokuapp.com/v1/quotes](https://lucifer-quotes.herokuapp.com/v1/quotes)
 
 	[
-		{
-			"quote": "The Devil gets burned by fire. Could this be any more ironic?",
-			"author": "Lucifer Morningstar"
-		}
+	  {
+	    "quote": "The Devil gets burned by fire. Could this be any more ironic?",
+	    "author": "Lucifer Morningstar"
+	  }
 	]
 
 
