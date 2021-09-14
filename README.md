@@ -1,5 +1,5 @@
 ![](LuciferQuotesAPI-Banner.png)</br>
-![](https://img.shields.io/github/license/shadowoff09/lucifer-quotes)
+![https://github.com/shadowoff09/lucifer-quotes/blob/main/LICENSE](https://img.shields.io/github/license/shadowoff09/lucifer-quotes)
 ![](https://img.shields.io/github/deployments/shadowoff09/lucifer-quotes/lucifer-quotes)
 ![](https://img.shields.io/github/last-commit/shadowoff09/lucifer-quotes)
 ![](https://img.shields.io/github/repo-size/shadowoff09/lucifer-quotes)
