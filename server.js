@@ -7,6 +7,7 @@ var app = express();
 var port = process.env.PORT || 3001;
 
 app.use('/images', express.static('public/images'));
+
 app.use('/css', express.static('public/css'));
 
 app.all('*', function (req, res, next) {

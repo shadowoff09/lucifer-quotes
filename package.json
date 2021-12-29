@@ -20,9 +20,11 @@
   "homepage": "https://github.com/shadowoff09/lucifer-quotes-api",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "build": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.2"
-  }
+  },
+  "license": "MIT"
+  
 }
