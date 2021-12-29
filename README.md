@@ -12,7 +12,7 @@
 
 A simple API to retrieve some quotes of Lucifer, shawty!
 
-:globe_with_meridians: Website and demo: [https://lucifer-quotes.vercel.app](https://lucifer-quotes.vercel.app)
+:globe_with_meridians: Website: [https://lucifer-quotes.vercel.app](https://lucifer-quotes.vercel.app)
 
 ## API
 
