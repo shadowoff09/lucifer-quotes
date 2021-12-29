@@ -14,17 +14,13 @@ A simple API to retrieve some quotes of Lucifer, sawty!
 
 :globe_with_meridians: Website and demo: [https://lucifer-quotes.vercel.app](https://lucifer-quotes.vercel.app)
 
-## Production host
-
-[https://lucifer-quotes.vercel.app](https://lucifer-quotes.vercel.app)
-
 ## API
 
 ### `GET /v1/quotes`
 
 Get a random quote in this format:
 
-> [https://lucifer-quotes.vercel.app/v1/quotes]([https://lucifer-quotes.vercel.app/v1/quotes)
+> [https://lucifer-quotes.vercel.app/v1/quotes](https://lucifer-quotes.vercel.app/v1/quotes)
 
 	[
 	  {
@@ -38,7 +34,7 @@ Get a random quote in this format:
 
 Returns an array with `{number}` quotes e.g. `GET /v1/quotes/5`.
 
-> [https://lucifer-quotes.vercel.app/v1/quotes/5]([https://lucifer-quotes.vercel.app/v1/quotes/5)
+> [https://lucifer-quotes.vercel.app/v1/quotes/5](https://lucifer-quotes.vercel.app/v1/quotes/5)
 
 	[
 	  {
