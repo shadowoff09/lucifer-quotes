@@ -12,11 +12,11 @@
 
 A simple API to retrieve some quotes of Lucifer, sawty!
 
-:globe_with_meridians: Website and demo: **Under development**
+:globe_with_meridians: Website and demo: [https://lucifer-quotes.vercel.app](https://lucifer-quotes.vercel.app)
 
 ## Production host
 
-[https://lucifer-quotes.herokuapp.com/](https://lucifer-quotes.herokuapp.com/)
+[https://lucifer-quotes.vercel.app](https://lucifer-quotes.vercel.app)
 
 ## API
 
@@ -24,7 +24,7 @@ A simple API to retrieve some quotes of Lucifer, sawty!
 
 Get a random quote in this format:
 
-> [https://lucifer-quotes.herokuapp.com/v1/quotes](https://lucifer-quotes.herokuapp.com/v1/quotes)
+> [https://lucifer-quotes.vercel.app/v1/quotes]([https://lucifer-quotes.vercel.app/v1/quotes)
 
 	[
 	  {
@@ -38,7 +38,7 @@ Get a random quote in this format:
 
 Returns an array with `{number}` quotes e.g. `GET /v1/quotes/5`.
 
-> [https://lucifer-quotes.herokuapp.com/v1/quotes/5](https://lucifer-quotes.herokuapp.com/v1/quotes/5)
+> [https://lucifer-quotes.vercel.app/v1/quotes/5]([https://lucifer-quotes.vercel.app/v1/quotes/5)
 
 	[
 	  {
@@ -66,7 +66,7 @@ Returns an array with `{number}` quotes e.g. `GET /v1/quotes/5`.
 
 ## Contributing
 
-If you want to add some quotes, just add them in `quotes.js` file and do a pull request !
+If you want to add some quotes, just add them in `src/quotes.js` file and do a pull request !
 
 ## Donate
 If you liked this project feel free to donate me for future awesome projects!</br>
