@@ -1,4 +1,4 @@
-![Banner](src/public/images/banner.png)</br>
+![](src/public/images/banner.png)</br>
 [![Licence](https://img.shields.io/github/license/shadowoff09/lucifer-quotes)](https://github.com/shadowoff09/lucifer-quotes/blob/main/LICENSE)
 [![Deployments](https://img.shields.io/github/deployments/shadowoff09/lucifer-quotes/lucifer-quotes)](https://github.com/shadowoff09/lucifer-quotes)
 [![Commits](https://img.shields.io/github/last-commit/shadowoff09/lucifer-quotes)](https://github.com/shadowoff09/lucifer-quotes/commits/main)
