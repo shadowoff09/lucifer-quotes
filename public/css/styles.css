@@ -41,8 +41,8 @@ hr {
 }
 
 /**
-   * Links
-   */
+* Links
+*/
 a {
   color: #0366d6;
   text-decoration: none;
@@ -65,8 +65,8 @@ pre {
 }
 
 /**
-    * Code blocks
-    */
+* Code blocks
+*/
 
 code {
   background-color: rgba(27, 31, 35, 0.05);
@@ -92,8 +92,8 @@ pre > code {
 }
 
 /**
-   * Blockquotes
-   */
+* Blockquotes
+*/
 blockquote {
   margin-left: 30px;
   margin-top: 0px;
@@ -114,8 +114,8 @@ blockquote * {
 }
 
 /**
-   * Tables
-   */
+* Tables
+*/
 table {
   border-spacing: 2px;
   display: block;
@@ -148,8 +148,8 @@ table tr:nth-child(2n) {
 }
 
 /**
-   * Others
-   */
+* Others
+*/
 
 img {
   max-width: 100%;
@@ -192,5 +192,5 @@ h2,
 h3 {
   border-bottom: 1px solid #eaecef;
   color: #111;
-  /* Darker */
+/* Darker */
 }
