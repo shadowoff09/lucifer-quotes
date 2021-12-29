@@ -2,8 +2,11 @@
     "version": 2,
     "builds": [{
       "src": "./server.js",
-      "use": "@now/node-server"
+      "use": "@vercel/node"
     }],
+    
+    "public": true,
+
     "routes": [{"handle": "filesystem"},
       {
         "src": "/.*",
