@@ -35,9 +35,3 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-
-# Hide Banner File
-LuciferQuotesAPI-Banner.png
-
-# Hide License File
-LICENSE
