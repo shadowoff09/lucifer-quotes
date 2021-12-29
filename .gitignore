@@ -38,3 +38,6 @@ jspm_packages
 
 # Hide Banner File
 LuciferQuotesAPI-Banner.png
+
+# Hide License File
+LICENSE
