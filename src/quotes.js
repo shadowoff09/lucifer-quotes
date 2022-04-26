@@ -323,4 +323,9 @@ module.exports = [
     quote: 'Lucifer Morningstar. Is that a stage name or something?',
     author: 'Chloe Decker',
   },
+  {
+    quote:
+      "I mean if all the apples are bad...maybe it's the tree that's the problem.",
+    author: 'Lucifer Morningstar',
+  },
 ];
