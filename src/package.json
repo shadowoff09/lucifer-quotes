@@ -1,7 +1,7 @@
 {
   "name": "lucifer-quotes",
   "version": "1.0.0",
-  "description": "A simple API to retrieve some quotes of Lucifer",
+  "description": "A simple API to retrieve some quotes from Lucifer",
   "repository": {
     "type": "git",
     "url": "https://github.com/shadowoff09/lucifer-quotes-api"
