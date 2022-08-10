@@ -6,7 +6,7 @@ var quotesRepository = require('./quotesRepository');
 var app = express();
 var port = process.env.PORT || 3001;
 
-pp.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 app.all('*', function (req, res, next) {
     res.set('Access-Control-Allow-Origin', '*');
