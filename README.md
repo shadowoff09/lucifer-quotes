@@ -73,9 +73,10 @@ If you liked this project feel free to donate me for future awesome projects!</b
 
 - [@shadowoff09](https://www.github.com/shadowoff09)
 
-## Stranger Things Version
+## Other Versions
 
 - [strangerthings-quotes](https://github.com/shadowoff09/strangerthings-quotes)
+- [bcs-quotes](https://github.com/shadowoff09/bcs-quotes)
 
 ---
 
