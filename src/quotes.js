@@ -318,7 +318,7 @@ module.exports = [
   {
     "quote":
       "My mum's gonna kill me. And before you say it, that's not a metaphor. She's literally going to kill me. She's not the forgiving type.",
-    "author": "Lucifer Morningtar",
+    "author": "Lucifer Morningstar",
   },
   {
     "quote": "What happens in Heaven, stays in Heaven.",
