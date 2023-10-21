@@ -77,6 +77,7 @@ If you liked this project feel free to donate me for future awesome projects!</b
 
 - [strangerthings-quotes](https://github.com/shadowoff09/strangerthings-quotes)
 - [bcs-quotes](https://github.com/shadowoff09/bcs-quotes)
+- [cinema-quotes](https://github.com/shadowoff09/cinema-quotes)
 
 ---
 
