@@ -367,4 +367,10 @@ module.exports = [
       "I mean if all the apples are bad...maybe it's the tree that's the problem.",
     "author": "Lucifer Morningstar",
   },
+  { "quote": "You Know, High School Reunion’s A Very Popular Torture In Hell.",
+    "author": "Lucifer Morningstar"
+  },
+  { "quote": "Life’s too short to hold grudges",
+    "author": "Lucifer Morningstar"
+  },
 ];
