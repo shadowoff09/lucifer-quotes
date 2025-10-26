@@ -35,12 +35,12 @@ app.get('/api/quotes/:num?', function (req, res) {
     const randomId = Math.random().toString(36).substring(2) + Date.now().toString(36);
     client.capture({
         distinctId: randomId,
-        event: 'quote_request_lucifer',
+        event: 'quote_request',
         properties: {
             numberOfQuotes: req.params.num || 1,
             userAgent: req.get('User-Agent'),
             timestamp: new Date().toISOString(),
-            ip: req.ip || 'anonymous'
+            service: 'lucifer-quotes-api'
         }
     });
     res.send(quotesRepository.getRandom(req.params.num || 1));
