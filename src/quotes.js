@@ -165,11 +165,6 @@ export default [
   },
   {
     "quote":
-      "What do you say, Sam? A fiddle of gold against your soul says I'm better than you.",
-    "author": "Lucifer Morningstar",
-  },
-  {
-    "quote":
       "I want you to teach me your secret. I want you to show me how to be a tool.",
     "author": "Lucifer Morningstar",
   },
