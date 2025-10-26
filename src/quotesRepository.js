@@ -1,21 +1,22 @@
 'use strict';
 
-var quotes = require('./quotes');
+import quotes from './quotes.js';
 
-module.exports = {
-    getRandom: function getRandom(numberOfQuotes) {
-        var limit = numberOfQuotes > quotes.length ? quotes.length : numberOfQuotes;
+export const quotesRepository = {
+    getRandom(numberOfQuotes) {
+        const n = Number(numberOfQuotes) || 1;
+        const limit = n > quotes.length ? quotes.length : n;
 
-        var out = new Array(limit);
-        var quote;
+        const out = new Array(limit);
+        let quote;
 
-        for (var i = 0; i < limit; i++) {
+        for (let i = 0; i < limit; i++) {
             do {
                 quote = quotes[Math.floor(Math.random() * quotes.length)];
             } while (out.indexOf(quote) > -1);
             out[i] = quote;
         }
-        
+
         return out;
     }
 };

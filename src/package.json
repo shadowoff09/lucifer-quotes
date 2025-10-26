@@ -2,6 +2,7 @@
   "name": "lucifer-quotes",
   "version": "1.0.0",
   "description": "A simple API to retrieve some quotes from Lucifer",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/shadowoff09/lucifer-quotes-api"
@@ -23,7 +24,9 @@
     "build": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "posthog-node": "^5.10.3"
   },
   "license": "MIT"
 }

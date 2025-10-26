@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = [
+export default [
   {
     "quote":
       "People don't arrive broken. They start with passion and yearning till something comes along that disabuses them of those notions.",
