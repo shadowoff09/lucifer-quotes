@@ -11,7 +11,7 @@ async function loadQuotesForLang(lang) {
         const module = await import(`./quotes.${lang}.js`);
         return module.default;
     } catch (e) {
-        // Fallback sur l'anglais si le fichier n'existe pas
+        // Fallback to English if language file doesn't exist
         return quotes;
     }
 }
