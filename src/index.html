@@ -15,7 +15,7 @@
 
 
 <body>
-  <a
+ <a
   class="github-fork-ribbon"
   href="https://github.com/shadowoff09/lucifer-quotes"
   data-ribbon="Fork me on GitHub"
@@ -43,7 +43,7 @@
       </a>
 
       <a href="https://github.com/shadowoff09/lucifer-quotes/blob/main/src/quotes.js" alt="quotes">
-        <img src="https://img.shields.io/badge/quotes-67-blue"/>
+        <img src="https://img.shields.io/badge/quotes-78-blue"/>
       </a>
 
       <a href="https://paypal.me/diogogaspar123">
@@ -116,12 +116,69 @@
         ]
       </code>   
     </pre>
+
+    <h3 id="get-v1langquotes">
+      <code>GET /api/{lang}/quotes</code>
+    </h3>
+
+    <p>Returns a random quote in a specific language. Currently supported: <code>en</code> (English), <code>fr</code> (French).</p>
+    <p>If the language file doesn't exist, it falls back to English.</p>
+
+    <blockquote>
+      <p>
+        <a href="https://lucifer-quotes.vercel.app/api/fr/quotes">https://lucifer-quotes.vercel.app/api/fr/quotes</a>
+      </p>
+    </blockquote>
+    <pre>
+      <code>
+        [
+          {
+            "quote": "Les gens n'arrivent pas brisés. Ils commencent avec passion et désir jusqu'à ce que quelque chose vienne les détromper de ces notions.",
+            "author": "Lucifer Morningstar"
+          }
+        ]
+      </code>   
+    </pre>
+
+    <h3 id="get-v1langquotesnumber">
+      <code>GET /api/{lang}/quotes/{number}</code>
+    </h3>
+
+    <p>Returns quotes in a specific language. Currently supported: <code>en</code> (English), <code>fr</code> (French).</p>
+    <p>If the language file doesn't exist, it falls back to English.</p>
+
+    <blockquote>
+      <p>
+        <a href="https://lucifer-quotes.vercel.app/api/fr/quotes/3">https://lucifer-quotes.vercel.app/api/fr/quotes/3</a>
+      </p>
+    </blockquote>
+    <pre>
+      <code>
+        [
+          {
+            "quote": "Les gens n'arrivent pas brisés. Ils commencent avec passion et désir jusqu'à ce que quelque chose vienne les détromper de ces notions.",
+            "author": "Lucifer Morningstar"
+          },
+          {
+            "quote": "Les miracles ne sont pas mon truc, mais je suis sûr qu'on peut trouver un arrangement.",
+            "author": "Lucifer Morningstar"
+          },
+          {
+            "quote": "Un marché est un marché, surtout avec le Diable.",
+            "author": "Lucifer Morningstar"
+          }
+        ]
+      </code>   
+    </pre>
     
     <h2 id="contributing">Contributing</h2>
     <p>If you want to add some quotes, just add them in <a href="https://github.com/shadowoff09/lucifer-quotes/blob/main/src/quotes.js">quotes.js</a> file and do a pull request !</p>
+    <p>To add quotes in other languages, create a file <code>src/quotes.{lang}.js</code> (e.g., <code>quotes.fr.js</code> for French) with the same structure.</p>
+    
     <h2 id="authors">Authors</h2>
     <ul>
-      <li><a href="https://www.github.com/shadowoff09">@shadowoff09</a></li>
+      <li><a href="https://www.github.com/shadowoff09">@shadowoff09</a> - Original project</li>
+      <li><a href="https://github.com/malicaeus">@Malicaeus</a> - Multilingual fork & enhancements</li>
     </ul>
     <h2 id="license">License</h2>
       <ul>

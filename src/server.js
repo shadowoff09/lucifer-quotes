@@ -27,26 +27,48 @@ app.all('*', function (req, res, next) {
 });
 
 app.get("/", function (request, response){
-    //show this file when the "/" is requested
-    response.sendFile(__dirname+"/index.html");
+    response.sendFile(__dirname + "/index.html");
 });
 
-app.get('/api/quotes/:num?', function (req, res) {
+app.get('/api/quotes/:num?', async function (req, res) {
+    const num = parseInt(req.params.num, 10) || 1;
     const randomId = Math.random().toString(36).substring(2) + Date.now().toString(36);
+    
     client.capture({
         distinctId: randomId,
         event: 'quote_request',
         properties: {
-            numberOfQuotes: req.params.num || 1,
+            numberOfQuotes: num,
+            language: 'en',
             userAgent: req.get('User-Agent'),
             timestamp: new Date().toISOString(),
             service: 'lucifer-quotes-api'
         }
     });
-    res.send(quotesRepository.getRandom(req.params.num || 1));
+    
+    res.send(await quotesRepository.getRandom(num, 'en'));
 });
 
+app.get('/api/:lang/quotes/:num?', async function (req, res) {
+    const lang = req.params.lang && req.params.lang.match(/^[a-z]{2}$/) ? req.params.lang : 'en';
+    const num = parseInt(req.params.num, 10) || 1;
+    const randomId = Math.random().toString(36).substring(2) + Date.now().toString(36);
+    
+    client.capture({
+        distinctId: randomId,
+        event: 'quote_request',
+        properties: {
+            numberOfQuotes: num,
+            language: lang,
+            userAgent: req.get('User-Agent'),
+            timestamp: new Date().toISOString(),
+            service: 'lucifer-quotes-api'
+        }
+    });
+    
+    res.send(await quotesRepository.getRandom(num, lang));
+});
 
 app.listen(port, function () {
     console.log('Server running on port', port);
-})
+});
