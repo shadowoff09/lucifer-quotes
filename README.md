@@ -3,7 +3,7 @@
 [![Deployments](https://img.shields.io/github/deployments/shadowoff09/lucifer-quotes/Production?logo=vercel)](https://github.com/shadowoff09/lucifer-quotes)
 [![Commits](https://img.shields.io/github/last-commit/shadowoff09/lucifer-quotes)](https://github.com/shadowoff09/lucifer-quotes/commits/main)
 [![Repo Size](https://img.shields.io/github/repo-size/shadowoff09/lucifer-quotes)](https://github.com/shadowoff09/lucifer-quotes)
-[![Quotes](https://img.shields.io/badge/quotes-78-blue)](https://github.com/shadowoff09/lucifer-quotes/blob/main/quotes.js)
+[![Quotes](https://img.shields.io/badge/quotes-80-blue)](https://github.com/shadowoff09/lucifer-quotes/blob/main/quotes.js)
 [![Paypal](https://img.shields.io/badge/Paypal-Donate-blue)](https://paypal.me/diogogaspar123)
 [![Ko-Fi](https://img.shields.io/badge/Ko--Fi-Donate-ff69b4)](https://ko-fi.com/shadowoff09)
 [![CodeFactor](https://www.codefactor.io/repository/github/shadowoff09/lucifer-quotes/badge)](https://www.codefactor.io/repository/github/shadowoff09/lucifer-quotes)
@@ -60,9 +60,51 @@ Returns an array with `{number}` quotes e.g. `GET /api/quotes/5`.
 	]
 
 
+### `GET /api/{lang}/quotes`
+
+Returns a random quote in a specific language. Currently supported languages: `en` (English), `fr` (French).
+
+If the language file doesn't exist, it falls back to English.
+
+> [https://lucifer-quotes.vercel.app/api/fr/quotes](https://lucifer-quotes.vercel.app/api/fr/quotes)
+
+	[
+	  {
+	    "quote": "Les gens n'arrivent pas brisés. Ils commencent avec passion et désir jusqu'à ce que quelque chose vienne les détromper de ces notions.",
+	    "author": "Lucifer Morningstar"
+	  }
+	]
+
+
+### `GET /api/{lang}/quotes/{number}`
+
+Returns quotes in a specific language. Currently supported languages: `en` (English), `fr` (French).
+
+If the language file doesn't exist, it falls back to English.
+
+> [https://lucifer-quotes.vercel.app/api/fr/quotes/3](https://lucifer-quotes.vercel.app/api/fr/quotes/3)
+
+	[
+	  {
+	    "quote": "Les gens n'arrivent pas brisés. Ils commencent avec passion et désir jusqu'à ce que quelque chose vienne les détromper de ces notions.",
+	    "author": "Lucifer Morningstar"
+	  },
+	  {
+	    "quote": "Les miracles ne sont pas mon truc, mais je suis sûr qu'on peut trouver un arrangement.",
+	    "author": "Lucifer Morningstar"
+	  },
+	  {
+	    "quote": "Un marché est un marché, surtout avec le Diable.",
+	    "author": "Lucifer Morningstar"
+	  }
+	]
+
+
 ## Contributing
 
 If you want to add some quotes, just add them in `src/quotes.js` file and do a pull request !
+
+To add quotes in other languages, create a file `src/quotes.{lang}.js` (e.g., `quotes.fr.js` for French) with the same structure.
 
 ## Donate
 If you liked this project feel free to donate me for future awesome projects!</br>
@@ -71,7 +113,8 @@ If you liked this project feel free to donate me for future awesome projects!</b
 
 ## Authors
 
-- [@shadowoff09](https://www.github.com/shadowoff09)
+- [@shadowoff09](https://www.github.com/shadowoff09) - Original project
+- [@Malicaeus](https://github.com/malicaeus) - Multilingual fork & enhancements
 
 ## Other Versions
 
